@@ -1,0 +1,47 @@
+* {
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-color: rgb(199, 148, 148); 
+     
+}
+#main {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color:rgb(35, 111, 178);
+    font-size: 100px;
+
+}
+.grid-container {
+    width: 1500px;
+    height:1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    border: 1px solid black;
+    border-radius: 8%;
+}
+
+.btn {
+    background: rgb(58, 10, 10);
+    color: white;
+    padding: 20px;
+    font-size : 100px;
+    border-radius: 20px;
+    margin: 20px;
+    transform: blue;
+    transition-duration: 0.005s;
+}
+
